@@ -16,7 +16,7 @@ namespace AppEjerciciosTodos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmAreaTriangulo());
+            Application.Run(new frmConvMetrosaPies());
         }
     }
 }

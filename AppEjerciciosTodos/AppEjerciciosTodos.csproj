@@ -58,6 +58,12 @@
     <Compile Include="frmAreaTriangulo.Designer.cs">
       <DependentUpon>frmAreaTriangulo.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmConvMetrosaPies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConvMetrosaPies.Designer.cs">
+      <DependentUpon>frmConvMetrosaPies.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -65,6 +71,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmAreaTriangulo.resx">
       <DependentUpon>frmAreaTriangulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConvMetrosaPies.resx">
+      <DependentUpon>frmConvMetrosaPies.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
